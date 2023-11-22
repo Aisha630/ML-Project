@@ -2,12 +2,17 @@
 
 You are provided with historical sales data for 1,115 Rossmann stores. The task is to forecast the "Sales" column for the test set. Note that some stores in the dataset were temporarily closed for refurbishment.
 
+### Folders
+* **Rossman-store-sales** - this folder contains the the data
+* **Additional Info** - this folder contains a notebook by dune dweller who gave us the store states information, and a notebook explaining her methadology. It also contains extra parameters we can use to train our model, such as information about the weather, google trend features.
+
 ### Files
 
 * **train.csv** - historical data including Sales
 * **test.csv** - historical data excluding Sales
 * **sample_submission.csv** - a sample submission file in the correct format
 * **store.csv** - supplemental information about the stores
+* **store_states_csv** - more information about which state each store is located in Germany - relevant for information about state holidays
 
 ### Data fields
 
